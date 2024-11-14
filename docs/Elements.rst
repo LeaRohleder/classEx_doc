@@ -72,7 +72,7 @@ Display formulas
 
 Although classEx does not directly support Latex, it is possible to display formulas to participants in a more elegant way in a text box with MathML. It is best to use the NON WYSIWG editor in the text box. Switching to the WYSIWG version already translates your HTML code into the formula.
 
-An exemple - the following HTML code leads to the following formula:
+An example - the following HTML code leads to the following formula:
 
 .. code:: HTML
 <math xmlns="http://www.w3.org/1998/Math/MathML">
@@ -118,7 +118,7 @@ Element Reference
 .. image:: _static/elements/reference.png
     :alt:  300p
 
-In order to avoid redundancies, you can reference elements and add them in a different place in the game (instead of copying them directly). This place has to be after or in the same stage as the original element is. For this, you can use the reference element. If the original element is altered, the reference is adapted automatically. The reference is created by selecting the stage number and the element number you are referring to. 
+avoid redundancies, you can reference elements and add them in a different place in the game (instead of copying them directly). This place has to be after or in the same stage as the original element is. For this, you can use the reference element. If the original element is altered, the reference is adapted automatically. The reference is created by selecting the stage number and the element number you are referring to. 
 
 .. note:: If you require the same text in two stages, for example, an element reference is a far more elegant version than a simple copy because any changes to the original element are adopted automatically. Also a reference objects in a participant field can just link to another participant opject (the same principle holds for the lecturer fields).
 
